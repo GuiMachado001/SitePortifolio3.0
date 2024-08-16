@@ -1,0 +1,222 @@
+#home{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    /* border:1px solid red; */
+}
+
+.containerHome{
+    width: 80%;
+    height: 600PX;
+
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: 0 8px 32px 0 #a562fc94;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    display: flex;
+    align-items: center;
+}
+.titleApresentacao {
+    width: 500px;
+    height: 100%;
+    margin-left: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titleApresentacao h1{
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    color: white;
+}
+.titleApresentacao span{
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+    color: #9849ff;
+    text-shadow: 0 0 5px #9849ff;
+}
+.titleApresentacao p{
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    color: white;
+}
+.descTituloBody{
+  width: 65%;
+  height: 33rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+
+
+/* animação foto */
+.header-right {
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+.circle {
+  height: 33rem;
+  width: 33rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 50%;
+  border: 3px solid #000000;
+  box-shadow: 0 0 10px #9849ff;
+  position: relative;
+  animation: circleAnim linear infinite 20s;
+}
+@keyframes circleAnim {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes colorAnim {
+to{
+    filter: hue-rotate(360deg);
+  }
+  }
+  .circle a {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #29d882;
+    color: #fff;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 22px;
+    position: absolute;
+    transition: 0.4s ease;
+    animation: colorAnim linear infinite 20s;
+
+  }
+  .circle img{
+    width: 90%;
+    
+  }
+  .circle a:hover {
+    background: #1d222a;
+    color: #fff;
+    
+  }
+  .circle a:nth-child(1) {
+    left: calc(50% - 2rem);
+    top: -2rem;
+  }
+  .circle a:nth-child(2) {
+    top: calc(50% - 2rem);
+    right: -2rem;
+  }
+  .circle a:nth-child(3) {
+    top: calc(50% - 2rem);
+    left: -2rem;
+  }
+  .circle a:nth-child(4) {
+    left: calc(50% - 2rem);
+    bottom: -2rem;
+  }
+  .developer-img {
+    position: absolute;
+    perspective: 800px;
+
+
+  }
+  
+  .dev-img-wrapper {
+    width: 300px;
+    height: 300px;
+    background-color: #9849ff;
+    box-shadow: 0 0 10px #9849ff;
+    border-radius: 50%;
+    padding: 2rem 2rem 0 2rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+
+  .dev-img-wrapper img {
+    height: 100%;
+  }
+  .dev-works {
+    width: 25rem;
+    height: 9rem;
+    background-color: #1d222a;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0.2rem solid #bbb;
+    border-radius: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.3);
+    position: absolute;
+  }
+  .dev-experience {
+    bottom: 10rem;
+    right: 33rem;
+  }
+  .dev-projects {
+    bottom: 1rem;
+    right: -2rem;
+  }
+  .dev-works span:nth-child(1) {
+    font-size: 3rem;
+    width: 50%;
+    text-align: center;
+  }
+  .dev-works span:nth-child(2) {
+    color: #9849ff;
+    width: 50%; 
+  }
+  
+  .section-border {
+    width: 0.3rem;
+    height: 90rem;
+    background-color: #9849ff;
+    box-shadow: 0 0 10px #9849ff;
+    margin-right: 5rem;
+    position: relative;
+  }
+  .section-border::before {
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    border: 0.3rem solid #9849ff;
+    box-shadow: 0 0 10px #9849ff;
+    background-color: #1d222a;
+    border-radius: 50%;
+    position: absolute;
+    left: -1.1rem;
+    top: -2rem;
+  }
+.section-border::after {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  border: 0.3rem solid #9849ff;
+  box-shadow: 0 0 10px #9849ff;
+  background-color: #1d222a;
+  border-radius: 50%;
+  position: absolute;
+  left: -1.1rem;
+  bottom: -2rem;
+}
