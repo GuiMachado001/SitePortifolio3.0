@@ -5,12 +5,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
+    /* margin-top: 30px; */
     /* border:1px solid red; */
 }
 
 .containerHome{
-    width: 80%;
+    width: 100%;
     height: 600PX;
 
     background: rgba(255, 255, 255, 0.04);
@@ -20,8 +20,6 @@
     border-radius: 5px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 
-    display: flex;
-    align-items: center;
 }
 .titleApresentacao {
     width: 500px;
