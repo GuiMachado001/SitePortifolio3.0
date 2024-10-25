@@ -1,0 +1,105 @@
+#sobreMim{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid green;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+
+}
+
+.containerTitleSobreMim{
+    width: 100%;
+    height: 60px;
+    border: 1px solid red;
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.containerTitleSobreMim > h1{
+
+    font-size: 50px;
+    color: transparent;
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.sobrMimTexto{
+    width: 80%;
+    height: auto;
+
+    margin: 20px;
+
+    border: 1px solid red;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.sobrMimTexto > h2{
+    color: var(--text-color2);
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerIcon{
+    width: 80%;
+    height: 60%;
+    border: 1px solid red;
+}
+.icons{
+    width: 100%;
+    height: auto;
+    border: 1px solid green;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    border: 2px solid var(--text-color2);
+    background-color: #18181b;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s all ;
+}
+.icon:hover{
+    border: 2px solid var(--colorPrimary1);
+}
+.iconHtml{
+    display: none;
+}
+.iconHtml:hover{
+    display: flex;
+    position: relative;
+    margin: -20px;
+    color: white;
+}
+.icone{
+    font-size: 50px;
+    color: var(--colorPrimary1);
+    cursor: pointer;
+}
+
+.toolTip{
+    width: 60px;
+    height: 30px;
+}

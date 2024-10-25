@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html lang="Pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guilherme Machado</title>
 
-    <link rel="stylesheet" href="css/body.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/sobreMim.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <script src="js/script.js" defer></script>
-    
+
 </head>
-
-<header>
-    <section id="toolBar"></section>
-</header>
-
 <body>
+    <header>
+        <h1 >Guilherme Machado</h1>
+        <nav class="nav-bar">
+            <ul class="navList">
+                <li class="navItem active"><a href="#home">Home</a></li>
+                <li class="navItem active"><a href="#cardapio">Sobre Mim</a></li>
+                <li class="navItem active"><a href="#depoimentos">Meus Cursos</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <div class="stars">
         <div class="star"></div>
@@ -73,47 +76,89 @@
         <div class="star"></div>
       </div>
 
-      
-            <section id="home">
-                
-                <div class="containerHome">
-                    <div class="descTituloBody">
-                        <div class="titleApresentacao">
-                            <h1 class="black"></h1>
-                            <span class="black"></span>
-                            <p class="black"></p>
+    <section id="home">
+        <div class="containerHome">
+
+            <div class="containerName"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+
+                <div class="titleApresentacao">
+                    <h1 class="black"></h1>
+                    <span class="black"></span>
+                    <p class="black"></p>
+                </div>
+            </div>
+
+            <div class="containerFoto"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+
+                <div class="header-right">
+                    <div class="circle">
+                        <a><img src="Assets/Icons/linguagens/css.svg" alt=""></a>
+                        <a><img src="Assets/Icons/linguagens/js.svg" alt=""></a>
+                        <a><img src="Assets/Icons/linguagens/Html.svg" alt=""></a>
+                        <a><img src="Assets/Icons/linguagens/pth.svg" alt=""></a>
+                    </div>
+                    <div class="developer-img">
+                        <div class="dev-img-wrapper">
+                            <img src="img/fotos/avatar1.png" alt="photo de l'auteur" />
                         </div>
                     </div>
-
-
-                    <div class="containerAvatar">
-                        <div class="header-right">
-                            <div class="circle">
-                                <a><img src="Assets/Icons/linguagens/css.svg" alt=""></a>
-                                <a><img src="Assets/Icons/linguagens/js.svg" alt=""></a>
-                                <a><img src="Assets/Icons/linguagens/Html.svg" alt=""></a>
-                                <a><img src="Assets/Icons/linguagens/pth.svg" alt=""></a>
-                            </div>
-                            <div class="developer-img">
-                                <div class="dev-img-wrapper">
-                                    <img src="Assets/Avatar/avatar3.png" alt="photo de l'auteur" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
 
-            <section class="separacao">
-                <div class="ocean">
-                    <div class="wave"></div>
-                    <div class="wave"></div>
-                </div>
-            </section>
+    <section id="sobreMim">
+        <div class="containerTitleSobreMim">
+            <h1>Sobre Mim</h1>
+        </div>
+        <div class="sobrMimTexto"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+            <h2>
+                Sou Guilherme Machado, um desenvolvedor Front-End dedicado a criar experiências web excepcionais. Com uma sólida formação em HTML, CSS e JavaScript, aliada a um forte entendimento de design utilizando ferramentas como Photoshop, CorelDRAW e Figma, busco constantemente aprimorar minhas habilidades para enfrentar novos desafios e oferecer soluções criativas e eficientes.
 
-            <section id="sobreMim">
-                <div class="teste">
+                Atualmente, estou aprofundando meus conhecimentos na Fabrica de Softaware - Senac, e estou formado em Analise e Desenvolvimento de Sistemas pela Estácio, além de participar de cursos livres, treinamentos e eventos. Minha paixão por desenvolvimento e design me impulsiona a buscar sempre o melhor em cada projeto que realizo
+            </h2>
+        </div>
+
+        <div class="containerIcon">
+            <div class="icons">
+
+                <div class="iconHtml icon">
+                    <i class="fa-brands fa-html5 icone"></i>
+                    <div class="toolTip">HTML</div>
                 </div>
-            </section>
+                <div class="iconCss icon">
+                    <i class="fa-brands fa-css3-alt icone"></i>
+                </div>
+                <div class="iconJs icon">
+                    <i class="fa-brands fa-square-js icone"></i>
+                </div>
+                <div class="iconFigma icon">
+                    <i class="fa-brands fa-figma icone"></i>
+                </div>
+                <div class="iconPy icon">
+                    <i class="fa-brands fa-python icone"></i>
+                </div>
+                <div class="iconDb icon">
+                    <i class="fa-solid fa-database icone"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
