@@ -396,3 +396,13 @@ body {
       opacity: 0.6;
     }
   }
+
+
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  width: 10px;
+  background-color: var(--colorPrimary1);
+  border-radius: 50px; 
+}
