@@ -58,12 +58,10 @@
 .containerIcon{
     width: 80%;
     height: 60%;
-    border: 1px solid red;
 }
 .icons{
     width: 100%;
     height: auto;
-    border: 1px solid green;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
