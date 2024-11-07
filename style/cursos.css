@@ -1,6 +1,11 @@
 #cursos{
     width: 100vw;
     height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .containerTitleConhecimetos{
@@ -25,4 +30,60 @@
     display: flex;
     align-self: center;
     justify-content: center;
+}
+
+.containerCursosConhecimento{
+    width: 80%;
+    height: 100%;
+
+    border: 1px solid red;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.containerCursos{
+    width: 50%;
+    height: 100%;
+    
+    border: 1px solid blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.containerConhecimento{
+    width: 50%;
+    height: 100%;
+
+    border: 1px solid blue;
+
+
+}
+
+.boxCurso{
+    width: 80%;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid var(--text-color2);
+    background-color: #18181b;
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.cursoName{
+    color: white;
+    font-weight: 900;
+    border: 1px solid red;
+}
+.cursoInstituicao{
+    color: white;
+    /* font-weight: 600; */
+    border: 1px solid red;
 }
