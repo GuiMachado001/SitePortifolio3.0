@@ -1,0 +1,23 @@
+#sectionCopy{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyRight{
+    width: 100%;
+    height: 100%;
+
+    background-color: #18181b;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-top: 2px solid var(--colorPrimary1);
+}
+

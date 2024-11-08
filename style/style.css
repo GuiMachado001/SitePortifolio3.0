@@ -4,6 +4,8 @@
 @import url(cursos.css);
 @import url(projetos.css);
 @import url(contato.css);
+@import url(copy.css);
+
 :root{
   --text-color1: #fff;
   --text-color2: #ffffff7e;

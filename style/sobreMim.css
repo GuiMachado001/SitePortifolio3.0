@@ -155,6 +155,12 @@
     margin: 10px; 
 }
 
+.containerDemoProjetos::after{
+    content: 'Passe o mouse nos icones acima';
+    color: var(--text-color2);    
+    font-size: 15px;
+}
+
 
 
 @media (min-width: 0px) and (max-width: 320px) {
