@@ -8,6 +8,7 @@
     flex-direction: column;
 
     padding: 50px;
+    margin-bottom: 50px;
 }
 
 .containerTitleConhecimetos{
@@ -193,8 +194,6 @@
     .containerCursosConhecimento{
         width: 95%;
         height: auto;
-
-        border: 1px solid blue;
 
         flex-direction: column;
     }
@@ -384,7 +383,7 @@
     }
 }
 
-@media (min-width: 601px) and (max-width: 768px){
+@media (min-width: 601px) and (max-width: 1250px){
     #cursos{
         width: 100vw;
         height: auto;

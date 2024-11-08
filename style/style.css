@@ -2,6 +2,8 @@
 @import url(home.css);
 @import url(sobreMim.css);
 @import url(cursos.css);
+@import url(projetos.css);
+@import url(contato.css);
 :root{
   --text-color1: #fff;
   --text-color2: #ffffff7e;
@@ -422,4 +424,9 @@ body {
   
   border-top: 2px solid var(--text-color2);
   border-bottom: 2px solid var(--text-color2);
+}
+
+a{
+  list-style: none;
+  font-style: none;
 }
