@@ -431,4 +431,5 @@ body {
 a{
   list-style: none;
   font-style: none;
+  text-decoration: none;
 }
