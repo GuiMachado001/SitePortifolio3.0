@@ -5,6 +5,7 @@
 @import url(projetos.css);
 @import url(contato.css);
 @import url(copy.css);
+@import url(carrossel.css);
 
 :root{
   --text-color1: #fff;
