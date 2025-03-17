@@ -328,7 +328,7 @@
         width: 95%;
         height: auto;
 
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
 
         flex-direction: column;
     }
@@ -395,7 +395,7 @@
         width: 95%;
         height: auto;
 
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
 
         flex-direction: column;
     }
